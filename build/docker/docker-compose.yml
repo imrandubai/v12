@@ -2,9 +2,9 @@ version: '3.5'
 
 services:
   botpress:
-    image: botpress/server:latest
+    image: imrandubai/v12:latest
     ports:
-      - "3000:8080"
+      - "3006:8086"
     volumes:
       - botpress_data:/botpress/data
     environment:
